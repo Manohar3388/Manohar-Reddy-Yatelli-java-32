@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>my page</title>
+    </head>
+    <body>
+
+
+    <script>
+    var env = "dev";
+var sendingAmount = 100; 
+
+
+switch(env){
+    case "dev":
+        sendingAmount += sendingAmount * 0.1; 
+        console.log(sendingAmount);
+        break;
+    case "test":
+        sendingAmount += sendingAmount * 0.2; 
+        console.log(sendingAmount);
+        break;
+    case "stage":
+        sendingAmount += sendingAmount * 0.3; 
+        console.log(sendingAmount);
+        break;
+    case "prod":
+        sendingAmount += sendingAmount * 0.05; 
+        console.log(sendingAmount);
+        break;
+ }
+  
+
+
+</script>
+</body>
+</html>
