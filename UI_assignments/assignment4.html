@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>assignment4></title>
+    </head>
+    <body>
+        <script>
+            var myProfile={
+                name: "Manohar Reddy Yatelli",
+                age: 25,
+                gender: "Male",
+                occupation: "Java Developer",
+                location: "Princeton, Texas",
+                Blood:"B+",
+                martialStatus:"single",
+                languagesSpoken:"English",
+                nationality:"India",
+                hobbies: ["Cricket", "webseries", "Traveling"],
+           }
+           function hobby_arr() {
+    for (let i = 0; i < myProfile.hobbies.length; i++) {
+        document.write(myProfile.hobbies[i]);
+    }
+}
+
+            hobby_arr()
+            function hobby_add(hobby_new){
+                myProfile.hobbies.push(hobby_new)
+                };
+            hobby_add("movies")
+            hobby_arr()
+            function hobby_remove(hobby_new){
+                myProfile.hobbies.pop(hobby_new)
+                };
+            hobby_remove("movies")
+            hobby_arr()
+     </script>
+    </body>
+</html>
