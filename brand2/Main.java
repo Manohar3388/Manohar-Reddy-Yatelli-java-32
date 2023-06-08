@@ -1,4 +1,4 @@
-package assignment2;
+package brand2;
 
 public class Main {
     public Main() {

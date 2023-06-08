@@ -1,4 +1,4 @@
-package Assignment_3;
+package university3;
 
 final class Sports {
 

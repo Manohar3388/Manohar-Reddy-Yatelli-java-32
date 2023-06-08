@@ -1,12 +1,15 @@
-package Assignment_3;
+package university3;
 
-import static Assignment_3.Faculty.faculty_exp;
+import static university3.Faculty.faculty_exp;
 
 public class Main {
 
     public static void main(String[] args){
+        Profile profile=new Profile();
+        profile.marks();
+        profile.getPercentage();
 
-        Student student=new Student();
+
         Faculty fac=new Faculty(25,5);
         Faculty fac2=new Faculty(24);
         Sports sport=new Sports();
@@ -14,8 +17,7 @@ public class Main {
 
 
 
-        student.getMarks();
-        student.getPercentage();
+       
 
 
         System.out.println(fac2.faculty_count);

@@ -1,4 +1,4 @@
-package assignment1;
+package student1;
 
 public class Main {
     public Main() {
