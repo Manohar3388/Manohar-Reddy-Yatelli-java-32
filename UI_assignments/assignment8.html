@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+        my assignment
+        </title>
+    </head>
+    <body>
+        <script>
+                Array.prototype.secondSmallest = function() {
+  return this.filter((value, index, self) => self.indexOf(value) === index)
+    .sort((a, b) => a - b)[1];
+};
+const arr = [3, 4, 6, 9, 2];
+const secondSmallest = arr.secondSmallest();
+console.log(secondSmallest);
+        </script>
+    </body>
+</html>
